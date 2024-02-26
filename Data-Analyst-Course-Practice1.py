@@ -2,7 +2,7 @@ import pandas as pd
 
 # Provided data
 # Load the CSV file into a DataFrame
-file_path = 'C:/Users/Usuario/Desktop/VentasOriginal.csv'
+file_path = 'VentasOriginal.csv'
 
 # Use try-except block to catch any potential exceptions
 try:
