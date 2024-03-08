@@ -1,4 +1,4 @@
-# Data_Analyts_Mintic_Talento_Tech
+## Data_Analyts_Mintic_Talento_Tech
 Bootcamp Data Analysis from Mintic_Talento Tech Colombia
 Additions add Additions will be made during the course period, after this and more contributions...
 Adiciones se harán durante, después del periodo del curso y mas aportes...
@@ -8,7 +8,7 @@ Additions are made during the course and after this course with more contributio
 The sessions are in real time online asynchronous. During the course period and after it you can make contributions...
 The contributions that enrich mutual knowledge.
 
-# Solutions in practical problems:
+## Solutions in practical problems:
 Creating machine learning algorithms, applied to deep learning and neural networks
 Relationship among linear algebra, probability and statistics, optimization, and deep learning. 
 Graph theory, linear algebra, and databases to address problems associated with Big Data.
@@ -25,7 +25,7 @@ Signal processing approach to these problems by combining linear algebraic graph
 layered network architecture, Link Layer protocols, high-speed packet switching, queueing theory, 
 Local Area Networks, and Wide Area Networking issues, including routing and flow control.
 
- **>Abot The Artificial intelligence (AI)**
+ ### **>Abot The Artificial intelligence (AI)**
 
 ***Artificial intelligence (AI) learns through various techniques, with the most common ones being:***
 
@@ -43,7 +43,7 @@ Local Area Networks, and Wide Area Networking issues, including routing and flow
 
 ***AI learns by extracting patterns and relationships from data, either through supervised, unsupervised, or reinforcement learning techniques, often leveraging neural networks and deep learning architectures. The choice of learning approach depends on the nature of the task, the availability of labeled data, and the desired outcomes.***
 
-**>About The Machine Learning**
+### **>About The Machine Learning**
 
 *Machine learning* is a subset of artificial intelligence that focuses on the development of algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed to do so.
 
