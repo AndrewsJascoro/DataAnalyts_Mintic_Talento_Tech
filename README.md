@@ -3,12 +3,12 @@ Bootcamp Data Analysis from Mintic_Talento Tech Colombia
 Additions add Additions will be made during the course period, after this and more contributions...
 Adiciones se harán durante, después del periodo del curso y mas aportes...
 
->>Análisis de datos y visualización from Mintic Talento Tech Boot camp online learning close in Bogota, Colombia.
+Análisis de datos y visualización from Mintic Talento Tech Boot camp online learning close in Bogota, Colombia.
 Additions are made during the course and after this course with more contributions...
 The sessions are in real time online asynchronous. During the course period and after it you can make contributions...
 The contributions that enrich mutual knowledge.
 
->>Solutions in practical problems:
+# Solutions in practical problems:
 Creating machine learning algorithms, applied to deep learning and neural networks
 Relationship among linear algebra, probability and statistics, optimization, and deep learning. 
 Graph theory, linear algebra, and databases to address problems associated with Big Data.
@@ -17,15 +17,15 @@ How to take raw data, extract meaningful information, use statistical tools, and
 Signal processing approach to these problems by combining linear algebraic graph algorithms, group theory, and database design. 
 
 **Conclusions:**
->>"Data structures are essential building blocks in obtaining efficient algorithms for methods of application."
+"Data structures are essential building blocks in obtaining efficient algorithms for methods of application."
 
->>"Thinking structurally about decision problems in order to make informed management decisions."
+"Thinking structurally about decision problems in order to make informed management decisions."
 
->>Plus add: 
+Plus add: 
 layered network architecture, Link Layer protocols, high-speed packet switching, queueing theory, 
 Local Area Networks, and Wide Area Networking issues, including routing and flow control.
->>
->>Abot The Artificial intelligence (AI)
+
+# >Abot The Artificial intelligence (AI)
 
 Artificial intelligence (AI) learns through various techniques, with the most common ones being:
 
@@ -42,16 +42,16 @@ Transfer Learning: Transfer learning involves leveraging knowledge from a pre-tr
 Neural Networks and Deep Learning: Neural networks, particularly deep neural networks, are a fundamental component of many AI learning algorithms. These networks consist of interconnected layers of artificial neurons that learn to represent complex patterns in the data through iterative optimization of their parameters.
 
 
->>About The Machine Learning
->>
->>Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed to do so.
->>
->>Subset of Artificial Intelligence: Machine learning is described as a subset of artificial intelligence. This means that machine learning is a specialized area within the broader field of AI, focusing specifically on how computers can learn from data to perform tasks without being explicitly programmed.
->>
->>Development of Algorithms and Models: Machine learning involves the creation and refinement of algorithms and models. These algorithms and models are designed to analyze data and extract patterns or relationships that can be used for making predictions or decisions.
->>
->>Learning from Data: The core idea of machine learning is that computers can learn from data. Instead of being explicitly programmed with rules to follow, machine learning algorithms are trained on large amounts of data. By analyzing this data, the algorithms can identify patterns and trends that they use to improve their performance.
->>
->>Making Predictions or Decisions: Once trained, machine learning models can make predictions or decisions based on new, unseen data. For example, a model trained on historical stock market data could predict future stock prices, or a model trained on medical images could diagnose diseases.
->>
->>
+# >About The Machine Learning
+
+Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed to do so.
+
+Subset of Artificial Intelligence: Machine learning is described as a subset of artificial intelligence. This means that machine learning is a specialized area within the broader field of AI, focusing specifically on how computers can learn from data to perform tasks without being explicitly programmed.
+
+Development of Algorithms and Models: Machine learning involves the creation and refinement of algorithms and models. These algorithms and models are designed to analyze data and extract patterns or relationships that can be used for making predictions or decisions.
+
+Learning from Data: The core idea of machine learning is that computers can learn from data. Instead of being explicitly programmed with rules to follow, machine learning algorithms are trained on large amounts of data. By analyzing this data, the algorithms can identify patterns and trends that they use to improve their performance.
+
+Making Predictions or Decisions: Once trained, machine learning models can make predictions or decisions based on new, unseen data. For example, a model trained on historical stock market data could predict future stock prices, or a model trained on medical images could diagnose diseases.
+
+
