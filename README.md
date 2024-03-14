@@ -8,7 +8,7 @@ Additions are made during the course and after this course with more contributio
 The sessions are in real time online asynchronous. During the course period and after it you can make contributions...
 The contributions that enrich mutual knowledge.
 
-# * ***Important notes that you should be keep in mind and know you to do Data Analysis.***
+# * ***Important notes that you should be keep in mind and you know to do Data Analysis.***
 
 * You should to know and you keep in your mind to differentiate the types of data analysis like it Descriptive Analysis, Exploratory Data Analysis (EDA), Predictive Analysis, Inferential Analysis, Diagnostic Analysis, Prescriptive Analysis, Text Analysis, Spatial Analysis.
 
