@@ -8,6 +8,14 @@ Additions are made during the course and after this course with more contributio
 The sessions are in real time online asynchronous. During the course period and after it you can make contributions...
 The contributions that enrich mutual knowledge.
 
+# * ***Important notes that you should be keep in mind and know you to do Data Analysis.***
+
+* You should to know and you keep in your mind to differentiate the types of data analysis like it Descriptive Analysis, Exploratory Data Analysis (EDA), Predictive Analysis, Inferential Analysis, Diagnostic Analysis, Prescriptive Analysis, Text Analysis, Spatial Analysis.
+
+* The sequentially but generally follow a logical progression. Problem Definition, Data Collection, Data Cleaning and Preprocessing, Exploratory Data Analysis (EDA), Hypothesis Formulation, Inferential Analysis, Predictive Modeling, Diagnostic Analysis, Prescriptive Analysis.
+   
+* It's important to note that these stages are iterative and may require revisiting previous steps as new insights are uncovered or additional data becomes available. Flexibility and adaptability are key in the data analysis process.
+
 ## Solutions in practical problems:
 Creating machine learning algorithms, applied to deep learning and neural networks
 Relationship among linear algebra, probability and statistics, optimization, and deep learning. 
@@ -15,15 +23,6 @@ Graph theory, linear algebra, and databases to address problems associated with 
 Display and assessment of data sets, investigation of hypotheses, and identification of possible casual relationships between variables. 
 How to take raw data, extract meaningful information, use statistical tools, and make visualizations.
 Signal processing approach to these problems by combining linear algebraic graph algorithms, group theory, and database design. 
-
-**Conclusions:**
-"Data structures are essential building blocks in obtaining efficient algorithms for methods of application."
-
-"Thinking structurally about decision problems in order to make informed management decisions."
-
-***Plus add:*** 
-layered network architecture, Link Layer protocols, high-speed packet switching, queueing theory, 
-Local Area Networks, and Wide Area Networking issues, including routing and flow control.
 
  ### **>Abot The Artificial intelligence (AI)**
 
@@ -56,3 +55,12 @@ Local Area Networks, and Wide Area Networking issues, including routing and flow
 **Making Predictions or Decisions:** Once trained, machine learning models can make predictions or decisions based on new, unseen data. For example, a model trained on historical stock market data could predict future stock prices, or a model trained on medical images could diagnose diseases.
 
 ***Machine learning is a specialized area within artificial intelligence that focuses on developing algorithms and models capable of learning from data to make predictions or decisions without explicit programming instructions.***
+
+**Conclusions:**
+"Data structures are essential building blocks in obtaining efficient algorithms for methods of application."
+
+"Thinking structurally about decision problems in order to make informed management decisions."
+
+***Plus add:*** 
+layered network architecture, Link Layer protocols, high-speed packet switching, queueing theory, 
+Local Area Networks, and Wide Area Networking issues, including routing and flow control.
