@@ -1,0 +1,178 @@
+---
+title: "Data_Cleaning_Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+Here's a comprehensive list of data cleaning techniques commonly used in R:
+
+1.  **Handling Missing Values**:
+
+    -   `na.omit()`: Remove rows with missing values.
+
+    -   `complete.cases()`: Identify complete cases.
+
+    -   `is.na()`: Identify missing values.
+
+    -   `na.rm` parameter in functions like `mean()`, `median()`, etc., to handle missing values during calculations.
+
+    -   Imputation methods: `impute()` function in `Hmisc` package, or using methods like mean imputation, median imputation, etc.
+
+2.  **Handling Outliers**:
+
+    -   Visual inspection using boxplots, histograms, scatter plots, etc.
+
+    -   Z-score method or modified Z-score method.
+
+    -   Winsorization: Replacing extreme values with the nearest "non-outlying" values.
+
+    -   Trimming: Removing outliers from the dataset.
+
+    -   Transformation techniques like log transformation, Box-Cox transformation, etc.
+
+3.  **Data Transformation**:
+
+    -   `transform()` function to create new variables.
+
+    -   `dplyr` package for data manipulation tasks like filtering, selecting, mutating, summarizing, etc.
+
+    -   `reshape2` or `tidyr` for reshaping data between wide and long formats.
+
+4.  **Handling Duplicate Data**:
+
+    -   `duplicated()` function to identify duplicate rows.
+
+    -   `unique()` function to get unique rows.
+
+    -   `distinct()` function in `dplyr` to select distinct/unique rows.
+
+    -   `dplyr`'s `distinct()` function for removing duplicate rows.
+
+5.  **Standardizing and Scaling Data**:
+
+    -   `scale()` function for standardization.
+
+    -   `min-max scaling` using `scale()` function or `scales` package.
+
+    -   Z-score normalization.
+
+6.  **Data Discretization**:
+
+    -   `cut()` function for binning numeric data into intervals.
+
+    -   `Hmisc` package for binning continuous data.
+
+    -   `dplyr` functions like `mutate()` to create categorical variables from continuous ones based on conditions.
+
+7.  **Dealing with Text Data**:
+
+    -   `stringr` package for string manipulation.
+
+    -   `tolower()`, `toupper()` for converting case.
+
+    -   `gsub()` for pattern replacement.
+
+    -   `tm` package for text mining tasks.
+
+8.  **Handling Date and Time Data**:
+
+    -   `as.Date()` and `as.POSIXct()` for converting character strings to date/time format.
+
+    -   `lubridate` package for easier date/time manipulation.
+
+9.  **Handling Categorical Data**:
+
+    -   `factor()` function for converting character vectors to factors.
+
+    -   One-hot encoding using `model.matrix()` or `dummyVars()` functions.
+
+10. **Data Integration and Merging**:
+
+    -   `merge()` function for merging data frames.
+
+    -   `dplyr`'s `left_join()`, `right_join()`, `inner_join()`, `full_join()` functions for various types of joins.
+
+    -   `rbind()` function for row-binding data frames.
+
+11. **Data Validation and Cleaning Pipelines**:
+
+    -   `validate()` function in `assertr` package for data validation.
+
+    -   `magrittr` or `pipeR` for creating data cleaning pipelines.
+
+12. **Handling Data Errors and Inconsistencies**:
+
+    -   Regular expressions (`grep()`, `grepl()`, `sub()`, `gsub()` functions) for pattern matching and replacement.
+
+    -   `stringdist` package for string distance computations to detect typos or inconsistencies.
+
+These are some of the commonly used techniques in R for data cleaning. The choice of techniques depends on the specific requirements of the dataset and the analysis being performed.
+
+1.  **Handling Skewed Data**:
+
+    -   Transformation techniques like Box-Cox transformation or Yeo-Johnson transformation to reduce skewness in data distributions.
+
+2.  **Multivariate Imputation**:
+
+    -   Techniques like multiple imputation (using packages like `mice` or `Amelia`) to impute missing values while considering relationships between variables.
+
+3.  **Handling Data Sparsity**:
+
+    -   Techniques such as oversampling minority classes or using synthetic minority oversampling technique (SMOTE) for imbalanced datasets.
+
+4.  **Anomaly Detection**:
+
+    -   Unsupervised anomaly detection algorithms like Isolation Forest, Local Outlier Factor (LOF), or One-Class SVM to identify anomalies in data.
+
+5.  **Text Data Cleaning**:
+
+    -   Tokenization, stop-word removal, stemming, and lemmatization using packages like `tm` or `textclean`.
+
+6.  **Spatial Data Cleaning**:
+
+    -   Topology fixing using functions in packages like `rgeos` or `sf`.
+
+    -   Removing duplicate geometries or correcting invalid geometries.
+
+7.  **Temporal Data Cleaning**:
+
+    -   Handling time zone conversions and daylight saving time adjustments.
+
+    -   Dealing with irregularly sampled time series data.
+
+8.  **Feature Engineering**:
+
+    -   Creating new features from existing ones using domain knowledge or techniques like PCA (Principal Component Analysis), LDA (Linear Discriminant Analysis), or t-SNE (t-distributed Stochastic Neighbor Embedding).
+
+9.  **Data Quality Assessment**:
+
+    -   Techniques like data profiling to understand data quality issues such as completeness, accuracy, consistency, and timeliness.
+
+10. **Handling Data Drift**:
+
+    -   Monitoring and detecting changes in data distribution over time.
+
+    -   Techniques like concept drift detection and adaptation.
+
+11. **Handling Large Datasets**:
+
+    -   Techniques for parallel processing and distributed computing using packages like `parallel`, `foreach`, `doParallel`, or frameworks like `SparkR`.
+
+12. **Data Synthesis**:
+
+    -   Generating synthetic data to augment training datasets or maintain privacy using techniques like generative adversarial networks (GANs) or differential privacy mechanisms.
+
+These techniques address more specialized or advanced data cleaning scenarios and may require deeper understanding of specific domains or data types. Depending on the nature of your data and the goals of your analysis, you may find these techniques useful for improving the quality and usability of your datasets in R.
