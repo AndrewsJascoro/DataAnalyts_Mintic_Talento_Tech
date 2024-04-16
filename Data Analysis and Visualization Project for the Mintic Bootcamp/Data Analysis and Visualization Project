@@ -13,3 +13,21 @@ El proyecto consta de documentación, datos científicos, documentación analít
 Y un documento del proceso de elaboración del proyecto.
 La información fue recopilada de datos abiertos y públicos de múltiples fuentes de información referenciadas, disponibles en la web y bibliotecas virtuales.
 
+Results are still available using FTP protocol, this remains unchanged.
+In addition to the historical FTP access, it is proposed an application programming interface (API) using GET method which gives access to machine readable data regarding various time scales. 
+The method to access these data is using HTTP/HTTPS protocol: This can be done using utilities to transfer data from a server (such as cURL, wget or any programming languages supporting HTTP protocol).
+Data are provided in standard exchange format, such as JSON, CSV and text. 
+
+See below documentations related to each version of the API.
+
+Version	Documentation	Date	Changes|Features
+0.1	Obsolete	17/02/2020	test version, decommissioned on 31/03/2023
+0.2-beta	Access here	02/06/2021	test version
+fix : incorrect formatting when failure
+fix : format change: left alignment of MJD in TXT files
+feature : New features in JSON file (data statistics)
+feature : Execution error codes improved and debug messages added
+https://webtai.bipm.org/api/index.html
+
+
+
