@@ -11,7 +11,7 @@ El proyecto para el Botcamp se llama : Análisis de datos y de la información s
 información puntual, general. La interacción con las otras variables climáticas y la vida en la tierra.
 El proyecto consta de documentación, datos científicos, documentación analítica, visualización de datos. 
 Y un documento del proceso de elaboración del proyecto.
-La información fue recopilada de datos abiertos y públicos de múltiples fuentes de información referenciadas, disponibles en la web y bibliotecas virtuales.
+La información fue recopilada de datos abiertos y públicos de múltiples fuentes de información referenciadas, disponibles en la web.
 
 Results are still available using FTP protocol, this remains unchanged.
 In addition to the historical FTP access, it is proposed an application programming interface (API) using GET method which gives access to machine readable data regarding various time scales. 
